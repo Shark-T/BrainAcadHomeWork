@@ -1,0 +1,56 @@
+package com.brainacad.modul1_03.lab;
+import java.util.Scanner;
+public class Lab1_4_2 {
+	public static void main(String [] arg){
+			System.out.println("Enter the number 'A'");
+		Scanner a = new Scanner(System.in);
+		int intA = a.nextInt();
+		System.out.println("Enter the number 'B'");
+		Scanner b = new Scanner(System.in);
+		int intB = b.nextInt();
+		int answerP = intA + intB;
+		System.out.println("Number A + number B = " +answerP);
+			System.out.println("Enter the number 'C'");
+		Scanner c = new Scanner(System.in);
+		int intC = c.nextInt();
+		System.out.println("Enter the number 'D'");
+		Scanner d = new Scanner(System.in);
+		int intD = d.nextInt();
+		int answerM = intC - intD;
+		System.out.println("Number C - number D = " +answerM);
+			System.out.println("Enter the number 'E'");
+		Scanner e = new Scanner(System.in);
+		double intE = e.nextInt();
+		System.out.println("Enter the number 'F'");
+		Scanner f = new Scanner(System.in);
+		double intF = f.nextInt();
+		double answerD = intE / intF;
+		System.out.println("Number E / number F = " +answerD);
+			System.out.println("Enter the number 'G'");
+		Scanner g = new Scanner(System.in);
+		double intG = g.nextInt();
+		System.out.println("Enter the number 'H'");
+		Scanner h = new Scanner(System.in);
+		double intH = h.nextInt();
+		double answerMu = intG * intH;
+		System.out.println("Number G * number H = " +answerMu);
+			System.out.println("Enter the number 'I'");
+		Scanner i = new Scanner(System.in);
+		double intI = i.nextInt();
+		System.out.println("Enter the number 'J'");
+		Scanner j = new Scanner(System.in);
+		double intJ = j.nextInt();
+		double answerPer = intI % intJ;
+		System.out.println("Rest of Number I / number J =  " +answerPer);
+		a.close();
+		b.close();
+		c.close();
+		d.close();
+		e.close();
+		f.close();
+		g.close();
+		h.close();
+		i.close();
+		j.close();
+	}
+}
