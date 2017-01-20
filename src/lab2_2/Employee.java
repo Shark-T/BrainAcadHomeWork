@@ -20,4 +20,3 @@ public class Employee {
 		employee.calcSalary("Dima", 208.50, 522.5, 21.5, 290.3);
 	}
 }
-
