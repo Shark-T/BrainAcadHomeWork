@@ -1,4 +1,4 @@
-package lab2_1;
+package com.brainacad.lab2_1;
 
 public class Computer {
 	

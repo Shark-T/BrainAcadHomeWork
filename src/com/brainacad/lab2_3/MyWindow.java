@@ -1,4 +1,4 @@
-package lab2_3;
+package com.brainacad.lab2_3;
 
 /**
  * Created by SHARK on 16.01.2017.
@@ -75,7 +75,7 @@ public class MyWindow {
         myWindows[3]=new MyWindow(1.1,1.6,3,"Black");
         myWindows[4]=new MyWindow(1.2,1.7,3,"green",true);
             for (MyWindow myWin : myWindows){
-                myWin.printFields(); // forech пробегает по массиву и выводит каждый массив
+                myWin.printFields(); // foreach пробегает по массиву и выводит каждый массив
 
             }
       //  MyWindow.width = 1

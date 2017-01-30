@@ -1,4 +1,4 @@
-package lab2_2;
+package com.brainacad.lab2_2;
 
 
 /**

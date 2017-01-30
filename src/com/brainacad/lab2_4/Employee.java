@@ -1,4 +1,4 @@
-package lab2_4;
+package com.brainacad.lab2_4;
 
 /**
  * Created by SHARK on 18.01.2017.
