@@ -1,4 +1,4 @@
-package com.brainacad.Lab2_5;
+package com.brainacad.lab2_5;
 
 import java.util.Arrays;
 
