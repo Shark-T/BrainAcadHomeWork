@@ -2,6 +2,7 @@ package com.brainacad.lab2_10.my_shapes;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Scanner;
 
 /**
  * Created by SHARK on 27.01.2017.
@@ -213,7 +214,33 @@ class Main {
            shape.draw();
         }
         System.out.println("Task 2_10_5");
-        
+        System.out.println("Write quantity of Shapes");
+        Scanner sc = new Scanner(System.in);
+        int b = sc.nextInt();
+        Shape [] shapes2 = new Shape[b];
+        for (int i = 0; i < shapes2.length ; i++){
+            System.out.println("Write type of Shape : Triangle, Rectangle, Circle");
+            String  type = sc.next();
+            System.out.println("Write color of Shape ");
+            String  color = sc.next();
+            switch (type.toLowerCase()){
+                case "rectangle" :
+                    System.out.println("Write  width Rectangle ");
+                    String  width = sc.nextLine();
+                    System.out.println("Write heigth of Rectangle");
+                    String  heigth = sc.nextLine();
+                    String newRectangle = type+":" + color+":" + width+"," + heigth;
+                    shapes2 [i] = Shape.parseShape(newRectangle);
+                    break;
+                case "circle" : System.out.println("Write dimension of Circle: Radius ");
+                  String  radius = sc.nextLine();
+                  break;
+              //  case "triangle" : shape = Triangle.parseTriangle(nameShapeAndParams);
+            }
+            return;
+
+
+        }
     }
 }
 
