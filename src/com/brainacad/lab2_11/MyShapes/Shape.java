@@ -209,7 +209,7 @@ class Triangle extends Shape implements Comparable{
 
 // lab2_10_3
 /*class MainAllShape{
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         Rectangle rectangle = (Rectangle) Shape.parseShape("Rectangle:GREEN:10,20");
         rectangle.draw();
         Circle circle = (Circle) Shape.parseShape("Circle:RED:10");

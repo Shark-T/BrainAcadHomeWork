@@ -4,7 +4,7 @@ package com.brainacad.modul1_06.lab;
  * Created by SHARK on 27.01.2017.
  */
 public class Lab1_6_5 {
-    /*public static void main(String[] args) {
+    /*public static void Main(String[] args) {
         int [][] array = {{1, 3, 6, 8}, {5, 4, 9, 2}};
 
         printArray(array);

@@ -1,4 +1,3 @@
-/bin/
-
-/.settings/
-/.idea/
+.idea/*
+bin/
+src/com/brainacad/package_to_copy/
